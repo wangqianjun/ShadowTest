@@ -21,6 +21,8 @@
 		E752E8E619B4910F00C47E66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E752E8C819B4910F00C47E66 /* UIKit.framework */; };
 		E752E8EE19B4910F00C47E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E752E8EC19B4910F00C47E66 /* InfoPlist.strings */; };
 		E752E8F019B4910F00C47E66 /* ShadowTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E752E8EF19B4910F00C47E66 /* ShadowTestTests.m */; };
+		E752E8FA19B4923F00C47E66 /* dccp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E752E8F919B4923F00C47E66 /* dccp.jpeg */; };
+		E752E8FC19B4924A00C47E66 /* embedded_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E752E8FB19B4924A00C47E66 /* embedded_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E752E8EB19B4910F00C47E66 /* ShadowTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowTestTests-Info.plist"; sourceTree = "<group>"; };
 		E752E8ED19B4910F00C47E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E752E8EF19B4910F00C47E66 /* ShadowTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowTestTests.m; sourceTree = "<group>"; };
+		E752E8F919B4923F00C47E66 /* dccp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dccp.jpeg; sourceTree = "<group>"; };
+		E752E8FB19B4924A00C47E66 /* embedded_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = embedded_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				E752E8D919B4910F00C47E66 /* ViewController.h */,
 				E752E8DA19B4910F00C47E66 /* ViewController.m */,
 				E752E8DC19B4910F00C47E66 /* Images.xcassets */,
+				E752E8F919B4923F00C47E66 /* dccp.jpeg */,
+				E752E8FB19B4924A00C47E66 /* embedded_bg.png */,
 				E752E8CB19B4910F00C47E66 /* Supporting Files */,
 			);
 			path = ShadowTest;
@@ -231,6 +237,8 @@
 				E752E8DD19B4910F00C47E66 /* Images.xcassets in Resources */,
 				E752E8CF19B4910F00C47E66 /* InfoPlist.strings in Resources */,
 				E752E8D819B4910F00C47E66 /* Main.storyboard in Resources */,
+				E752E8FC19B4924A00C47E66 /* embedded_bg.png in Resources */,
+				E752E8FA19B4923F00C47E66 /* dccp.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +464,7 @@
 				E752E8F519B4910F00C47E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E752E8F619B4910F00C47E66 /* Build configuration list for PBXNativeTarget "ShadowTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				E752E8F819B4910F00C47E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
